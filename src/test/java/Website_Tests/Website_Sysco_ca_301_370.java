@@ -28,7 +28,7 @@ public class Website_Sysco_ca_301_370 {
     }
 
     @Test(priority = 1)
-    public void testLoadTheWebsiteUrlsAndtakingscreenshotOfFullpage() throws URISyntaxException {
+    public void testLoadTheWebsiteUrlsAndtakingscreenshotOfFullpage()  {
         System.out.println("total rows: " + rowCount);
 
         for (int rownum = 301; rownum <= rowCount; rownum++) {
@@ -44,7 +44,6 @@ public class Website_Sysco_ca_301_370 {
         }
 
     }
-
     @AfterMethod
     public void tearDown() {
         driver.quit();
