@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Webpages" verbose="1" >
+    <test name="Sysco_Com_Website" >
+        <classes>
+            <class name="Website_Tests.Website_Sysco_ca_1_100"/>
+            <class name="Website_Tests.Website_Sysco_ca_101_200"/>
+            <class name="Website_Tests.Website_Sysco_ca_201_300"/>
+            <class name="Website_Tests.Website_Sysco_ca_301_370"/>
+
+
+        </classes>
+    </test>
+</suite>
