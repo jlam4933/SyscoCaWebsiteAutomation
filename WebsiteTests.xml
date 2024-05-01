@@ -7,8 +7,6 @@
             <class name="Website_Tests.Website_Sysco_ca_101_200"/>
             <class name="Website_Tests.Website_Sysco_ca_201_300"/>
             <class name="Website_Tests.Website_Sysco_ca_301_370"/>
-
-
         </classes>
     </test>
 </suite>
